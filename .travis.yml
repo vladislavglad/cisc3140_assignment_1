@@ -6,3 +6,8 @@ install:
   - pip install -r requirements.txt
 script:
   - python3 app.py
+deploy:
+  provider: heroku
+  api_key:
+    secure: "763e87e7-95f5-4523-ab38-f95b97d09e48"
+  
