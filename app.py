@@ -26,5 +26,5 @@ app = Flask('__name__')
 def index():
     return string_to_display
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
+if __name__ == '__main__':
+    app.run()

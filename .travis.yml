@@ -1,4 +1,3 @@
-dist: xenial
 language: python
 python:
 - 3.7.4
@@ -10,3 +9,4 @@ deploy:
   provider: heroku
   api_key:
     secure: HDuHBOcdIlO2FFm5NLDazFuyNSzdj7k5b9qNkyB29i9tW/nsP+fd2lmpdVEzqKAqcYFCSKsuyQ9PTUTiP2EYq1AC7GzqbaVT5alf6BdR4lVx0QVpyWBnvnd6BXolPzZpf9fuExy4KXy6AxdqaS+lKpcJvI9NHK2ciS9hz1EDNUNkVMxn/v6joYBipvoWeWlwj9ak3jO7XaEvXDQTeL+YF35r3WPcNvWEaGSpnGbqSYDWC/dir23YAF6jrsFXgT0269QYXiIoI2+JGAynlPRHwE6B+bPRxmZrs1ZnD0+G8gFU2fm96af+PQZwKFhT2y15kag6E8QNUyZTuTrSA3DIzUAyjkCZ5eBiwEqHI7ddtIFoinEusPeffQMJaeUnlo1UCNIrzCC/qt27ZqFvx3ItlGItonKYEhEYV1b+E00I7eiVWbyqixjb4bTtO5M/dFR2aQAsOhGLydNxNLtGOZFSCIryIEAWoKnL4I9trUQT7P7cO8K+KgXrE2h63bEHKoZVXVopjbnRjNdh27o2c7OX6/KwO8cWcapYQ/7rvDOf43DUywuoBvMP/a9//HReiExIHD47Je6m7VDJ5CTIH9XnODQtbtENJr75rYDPMVUzJxzggnghxhcewRk7zqPGMDk4nPDddyj82seOqDEC6jclzWbDfCADgTiXnmZy3LiuaHU=
+    app: flask-travis-ci
