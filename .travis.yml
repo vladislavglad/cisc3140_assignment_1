@@ -1,11 +1,9 @@
 language: python
 python:
-- 3.7.4
+- '3.7'
 install:
-- pip install -r requirements.txt
+- pip3 install -r requirements.txt
 script:
-- python3 app.py
+- python -m unittest discover
 deploy:
-  provider: heroku
-  api_key:
-    secure: D943Ff1Q7A9z/bRz/IW340PGmVXS5SLImmhg8BJSkbmXoEQws2HxfDUXS8FnRVKJP65d01t9G1aJq1ZPsy6jHSkJiK3PyJ/jAuvskaRljSc1g0OgyXZyd+4D9N2hbAu5kHNbMPr7f8NRB9dzCU8auGiEvUfWJG15vBk5NcBiZbCbynjulLzAjrxNk1b8ELbaNg6+ye0DvhFsrSZ0nMnPyip4DYk+hnFG8MPY0qrRyGHx/DXZbVuFeuHfjF1YkVmLHCsKNZiYSDu3VIX5ibYT6bQlOjtBGqqHSmY5fz/f+eimQBn85aFVVWGS8pIKvjfPAwnt0Z/fG3kfq5EE/HmEpsb9RpI+uXhQveSANIkCvDSU84SCBj54elyqK/eZRW8FWUnnLG/EJeFMy+Z+10I8DktKwIPjsLnZ/Y1Q/JLF2BTXqkiO0LhLAjljcDqzLfnI0Hd8wxL52QY6Aui200ewqhNUtLmz5z2nxBx5LQ8RnqC2zi9P1yoYfsJsEHF6aNGnjgTBzEjuoYMMIGvzs7eMbpdWbcHzkDfAdUaKcAZkfUH38G0JYDLdMEbTH3DxczOAyLZxyP7mW2H7CebEG5HOy0dyRGcZ3xgthFKEIlx9UWhhkGqRBLHw65xggk1SuqXNDHMOHkZv15R8ZUWV+OwKn89O3zgve7c1QuCH7+AvR6g=
+  - provider: heroku
