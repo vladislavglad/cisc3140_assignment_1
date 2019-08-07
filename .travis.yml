@@ -7,5 +7,3 @@ script:
 - python -m unittest discover
 deploy:
   provider: heroku
-  api_key:
-  secure: 3d44661a-cc37-4316-aef2-2d5dbb19d07d
