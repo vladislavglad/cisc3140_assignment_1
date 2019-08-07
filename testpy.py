@@ -5,7 +5,7 @@ class testflask(unittest.TestCase):
 
     def test_home(self):
         test = app.test_client(self)
-        response = test.get('/', content_type='html/test')
+        response = test.get('/')
         self.assertEqual(response.status_code, 200)
 
 
