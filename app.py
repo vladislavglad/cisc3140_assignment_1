@@ -12,7 +12,7 @@ byte_code = urlobj.read()
 py_dict = json.loads(byte_code.decode()) 
 
 #declare a string.
-string_to_display = ''
+string_to_display = '<img src="'+ py_dict['hdurl'] +'" alt="no image found " width="500" height="400">\n'
 
 #append said string with all the values from py_dict.
 for data_type, description in py_dict.items():
