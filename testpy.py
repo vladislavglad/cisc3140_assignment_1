@@ -1,6 +1,7 @@
 from app import app
 import unittest
 
+//not needed; instead use print('hi')
 class testapp(unittest.TestCase):
 
     def test_home(self):
