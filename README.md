@@ -1,4 +1,6 @@
 # cisc3140_assignment_3
+[![Build Status](https://travis-ci.org/vladislavglad/cisc3140_assignment_1.svg?branch=master)](https://travis-ci.org/vladislavglad/cisc3140_assignment_1)
+
 After an Insane amount of attempts... after Travis CI spammed my Email with "Erorred Build" Messages...
 
 Here it is! Deployed at: https://travis-heroku-deployment.herokuapp.com/
